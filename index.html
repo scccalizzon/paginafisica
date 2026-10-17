@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/fisica.png" type="image/png">
+    <title>Fisica</title>
+
+  
+    
+
+   
+    <link rel="stylesheet" href="adorno.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>FISICA</h1>
+        
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#temas">Temas</a>
+        <a href="#video-seccion">Video</a>
+        <a href="#galeria-seccion">Galería</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <div class="contenedor">
+
+       
+        <section>
+            <h2>BIENVENIDA</h2>
+            <p>La física es una ciencia natural que estudia la materia, la energía, el movimiento, las fuerzas y las leyes que rigen el universo. Gracias a ella, podemos comprender cómo ocurren los fenómenos naturales y cómo funcionan muchas de las cosas que nos rodean.</p>
+        </section>
+
+        <section id="temas">
+            <h2>FISICA</h2>
+
+            <h3>1.¿QUE ES?</h3>
+            <p>La física es una ciencia que estudia los fenómenos que se producen en el cosmos, basándose en observaciones, experimentaciones y mediciones. Para entender qué es la física realmente, es preciso tener en cuenta que engloba leyes esenciales que explican, ni más ni menos, el funcionamiento del universo.
+                Los inicios de la física se retrotraen a los orígenes mismos de la civilización, cuando los humanos se empeñaron en comprender el funcionamiento de los fenómenos que los rodeaban. La palabra física proviene del griego fhysis, que significa naturaleza, y comprende el estudio de la materia, la energía, el tiempo y el espacio.
+            </p>
+
+            <h3>2.RAMAS </h3>
+            <ul>
+                <li>Mecánica</li>
+                <li>Termodinámica</li>
+                <li>Electromagnetismo</li>
+                <li>Acústica</li>
+                <li>Física cuántica</li>
+                <li>Física relativista</li>
+                <li>Física atómica</li>
+                <li>Física nuclear</li>
+                <li>Astrofísica</li>
+                <li>Física de partículas</li>
+                <li>Física estadística</li>
+                <li>Geofísica</li>
+                <li>Biofísica</li>
+                <li>Física matemática</li>
+
+            </ul>
+
+            <h3>3.CIENTIFICOS </h3>
+            <ol>
+                <li>Aristóteles</li>
+                <li>Arquímedes</li>
+                <li>Nicolás Copérnico</li>
+                <li>Galileo Galilei</li>
+                <li>Johannes Kepler</li>
+                <li>Isaac Newton</li>
+                <li>Michael Faraday</li>
+                <li>James Clerk Maxwell</li>
+                <li>Max Planck</li>
+                <li>Niels Bohr</li>
+                <li>Marie Curie</li>
+                <li>Albert Einstein</li>
+                <li>Ernest Rutherford</li>
+                <li>Werner Heisenberg</li>
+                <li>Richard Feynman</li>
+            </ol>
+
+            <h3>4.LEYES </h3>
+            <table class="tabla-leyes">
+                <thead>
+                    <tr>
+                        <th>Ley fisica</th>
+                        <th>Descripcion</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primera ley de Newton</td>
+                        <td>Un objeto permanece en reposo o en movimiento rectilíneo uniforme si no actúa sobre él una fuerza neta.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Segunda ley de Newton</td>
+                        <td>La aceleración de un objeto depende de la fuerza neta aplicada y de su masa.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Tercera ley de Newton</td>
+                        <td>A toda acción corresponde una reacción de igual magnitud y en sentido contrario</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+       
+        <section id="video-seccion">
+            <h2>HISTORIA </h2>
+            <p>Un poco de la historia de lo que fue la fisica:</p>
+            <div class="contenedor-video">
+                <video width="320" height="240" controls>
+                <source src="historia.mp4" type="video/mp4">
+                <source src="historia.ogg" type="video/ogg">
+
+             </video>
+            </div>
+        </section>
+
+       
+        <section id="galeria-seccion">
+            <h2> Imágenes</h2>
+            <div class="galeria">
+                <figure>
+                    <img src="imagenes/primera.jpg" alt="PRIMERA LEY DE NEWTON">
+                    <figcaption>PRIMERA LEY DE NEWTON</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagenes/segunda.jpg" alt="SEGUNDA LEY DE NEWTON">
+                    <figcaption>SEGUNDA LEY DE NEWTON</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagenes/tercera.jpg" alt="TERCERA LEY DE NEWTON">
+                    <figcaption>TERCERA LEY DE NEWTON</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        
+        <section id="contacto">
+            <h2>Formulario </h2>
+            <p>Envíar preguntas:</p>
+            
+            <form action="#contacto" method="get">
+                <div class="campo">
+                    <label for="nombre">Nombre del alumno:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="pregunta">Pregunta sobre la materia:</label>
+                    <input type="text" id="pregunta" name="pregunta" placeholder="Escribe tu duda" required>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar datos</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>ALIZZON SANCHEZ CRISOSTOMO 5AVP</p>
+    </footer>
+
+</body>
+</html>
